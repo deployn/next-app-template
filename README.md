@@ -18,17 +18,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Commitizen
 
-To learn more about Next.js, take a look at the following resources:
+[Commitizen](https://github.com/commitizen/cz-cli) is a command line utility which helps you making meaningful and standard commit messages. It uses a series of prompts to generate a well formatted commit message.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To commit changes using Commitizen, run:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+npm run commit
+# or
+yarn commit
+# or
+pnpm commit
+```
 
-## Deploy on Vercel
+## Semantic Release
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Semantic Release](https://github.com/semantic-release/semantic-release) automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The version number is automatically determined based on Commitizen’s structured commit messages. This ensures that version numbers are bumped in a semantic way (major for breaking changes, minor for new features, patch for bug fixes).
+
+This project employs [GitHub Actions](https://github.com/features/actions) for automated releases, leveraging the power of Semantic Release.
+
+The GitHub Actions workflow is set up to trigger a new Semantic Release whenever changes are pushed to the main branch. This means that every time you merge a pull request or push directly to main, the project version will be automatically bumped based on the commit messages, the changelog will be updated, and a new release will be created and published to GitHub.
+
+The workflow configuration for Semantic Release can be found in `.github/workflows/release.yml`.
+
+Please ensure your commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard, as this is what Semantic Release uses to determine the version bumps. If you’re not confident writing these by hand, use Commitizen, which will guide you through generating a properly formatted commit message.
