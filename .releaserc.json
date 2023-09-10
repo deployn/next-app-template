@@ -27,7 +27,12 @@
         "npmPublish": false
       }
     ],
-    "@semantic-release/github",
+    [
+      "@semantic-release/github",
+      {
+        "assets": [{ "path": "out/**", "label": "Static Site" }]
+      }
+    ],
     [
       "@semantic-release/git",
       {
