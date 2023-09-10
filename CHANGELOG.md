@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/deployn/next-app-template/compare/v1.1.0...v1.2.0) (2023-09-10)
+
+
+### Features
+
+* add darkmode support with next-themes ([5c814a8](https://github.com/deployn/next-app-template/commit/5c814a85f372fccb83c6b3639d1491202f8633f4))
+* updated next.config.js and .releaserc.json for static site export ([672604a](https://github.com/deployn/next-app-template/commit/672604a1340f764b564273eb4a3cb0e519cfa002))
+
 # [1.1.0](https://github.com/deployn/next-app-template/compare/v1.0.0...v1.1.0) (2023-09-09)
 
 
