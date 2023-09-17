@@ -1,3 +1,20 @@
+## [1.2.1](https://github.com/deployn/next-app-template/compare/v1.2.0...v1.2.1) (2023-09-17)
+
+
+### deps
+
+* update dependencies ([c9e0172](https://github.com/deployn/next-app-template/commit/c9e01728c53fb3c6de899013dec6f3a600b74bc3))
+
+
+### Reverts
+
+* **release:** revert semantic-release/github settings ([c2344b3](https://github.com/deployn/next-app-template/commit/c2344b32791a9417fbb25a958bbd6d15c6779c4f))
+
+
+### BREAKING CHANGES
+
+* semantic-release requires at least node v18.17
+
 # [1.2.0](https://github.com/deployn/next-app-template/compare/v1.1.0...v1.2.0) (2023-09-10)
 
 
