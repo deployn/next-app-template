@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/deployn/next-app-template/compare/v1.3.2...v1.4.0) (2023-09-24)
+
+
+### Features
+
+* add contentlayer for mdx files ([c5c9b1f](https://github.com/deployn/next-app-template/commit/c5c9b1f956cf57ab60fb8330f87a8eb4d040ecec))
+
 ## [1.3.2](https://github.com/deployn/next-app-template/compare/v1.3.1...v1.3.2) (2023-09-24)
 
 ## [1.3.1](https://github.com/deployn/next-app-template/compare/v1.3.0...v1.3.1) (2023-09-20)
