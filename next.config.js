@@ -8,4 +8,5 @@ const nextConfig = {
 }
 
 const withMDX = require('@next/mdx')()
-module.exports = withMDX(nextConfig)
+const { withContentlayer } = require('next-contentlayer')
+module.exports = withMDX(withContentlayer(nextConfig))
