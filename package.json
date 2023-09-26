@@ -14,15 +14,15 @@
   "dependencies": {
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
-    "@next/mdx": "^13.5.2",
+    "@next/mdx": "^13.5.3",
     "@types/mdx": "^2.0.7",
-    "@types/node": "20.6.4",
+    "@types/node": "20.7.0",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
     "eslint": "8.50.0",
-    "eslint-config-next": "13.5.2",
-    "next": "13.5.2",
+    "eslint-config-next": "13.5.3",
+    "next": "13.5.3",
     "next-contentlayer": "^0.3.4",
     "next-themes": "^0.2.1",
     "postcss": "8.4.30",
@@ -44,6 +44,6 @@
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
-    "semantic-release": "^22.0.4"
+    "semantic-release": "^22.0.5"
   }
 }
