@@ -1,3 +1,5 @@
+## [1.4.2](https://github.com/deployn/next-app-template/compare/v1.4.1...v1.4.2) (2023-10-05)
+
 ## [1.4.1](https://github.com/deployn/next-app-template/compare/v1.4.0...v1.4.1) (2023-09-26)
 
 # [1.4.0](https://github.com/deployn/next-app-template/compare/v1.3.2...v1.4.0) (2023-09-24)
