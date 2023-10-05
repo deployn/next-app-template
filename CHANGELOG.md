@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/deployn/next-app-template/compare/v1.4.2...v1.5.0) (2023-10-05)
+
+
+### Features
+
+* remove mdx support ([094a2db](https://github.com/deployn/next-app-template/commit/094a2db98629fd511a596d7c3e7029e8b0c1daa9))
+
 ## [1.4.2](https://github.com/deployn/next-app-template/compare/v1.4.1...v1.4.2) (2023-10-05)
 
 ## [1.4.1](https://github.com/deployn/next-app-template/compare/v1.4.0...v1.4.1) (2023-09-26)
